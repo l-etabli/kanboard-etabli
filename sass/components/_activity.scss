@@ -62,17 +62,17 @@
     }
   }
 
-  // &:hover,
-  // &:focus {
-  //   background-color: $default-bg-color-1;
-  // }
+  &:hover,
+  &:focus {
+    background-color: none;
+  }
 
-  // &:nth-child(even) {
-  //   background-color: #fafcff;
+  &:nth-child(even) {
+    background-color: none;
 
-  //   &:hover,
-  //   &:focus {
-  //     background-color: $default-bg-color-1;
-  //   }
-  // }
+    &:hover,
+    &:focus {
+      background-color: none;
+    }
+  }
 }
