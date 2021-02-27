@@ -18,16 +18,14 @@
 header {
   .select-dropdown-input-container {
     background-color: transparent;
-    border: 1px solid #0050c7;
 
     .select-dropdown-chevron {
-      color: #0050c7;
+      color: $primary-color;
     }
 
     input.select-dropdown-input {
-      border: 1px solid #0050c7;
-      background-color: #031a38 !important;
-      color: white !important;
+      background-color: $default-bg-color !important;
+      color: $primary-color !important;
     }
   }
 }
