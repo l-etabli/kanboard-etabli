@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanboard\Plugin\Greenwing;
+namespace Kanboard\Plugin\Etabli;
 
 use Kanboard\Core\Base;
 

@@ -1,1 +1,1 @@
-<link rel="icon" href="/plugins/Greenwing/src/img/favicon.ico" />
+<link rel="icon" href="/plugins/Etabli/src/img/favicon.ico" />

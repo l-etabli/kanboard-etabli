@@ -1,8 +1,8 @@
-# Greenwing
+# Kanboard Etabli
 
 <hr>
 
-Greenwing is a kanboard beautify theme with modern design.
+Etabli is a kanboard beautify theme with modern design.
 
 What is Kanboard? Kanboard is project management software that focuses on the Kanban methodology.
 You can access to Kanboard repository following this link:
@@ -32,7 +32,7 @@ Kanboard >= v1.2
 
 ## Installation guide
 
-Download zip and decompress in plugins/Greenwing folder
+Download zip and decompress in plugins/Etabli folder
 
 ## Customize guide
 
@@ -42,19 +42,19 @@ Install gulp globally with npm install --global gulp
 
 Check gulp install with gulp --version
 
-Go to kanboard/plugins/Greenwing folder
+Go to kanboard/plugins/Etabli folder
 
-Copy all files from edit folder to Greenwing root folder
+Copy all files from edit folder to Etabli root folder
 
 Run npm install or yarn install
 
 Edit gulpfile.js host line 11 with your local kanboard link
 
-Run gulp watch in Greenwing root folder
+Run gulp watch in Etabli root folder
 
 Now, you can edit scss files in Sass folder to customize theme.
 
 ## Reporting Issues
 
-You can create issue for any bug: https://github.com/Confexion/Greenwing/issues/new
+You can create issue for any bug: https://github.com/l-etabli/kanboard-etabli/issues/new
 
