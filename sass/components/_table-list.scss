@@ -1,7 +1,7 @@
 .table-list {
   margin-bottom: 1rem;
   background-color: transparent;
-  max-width: $body-width: 960px;
+  max-width: $body-width;
 
   .table-list-header {
     padding: 15px;
@@ -144,6 +144,7 @@
         padding: 3px 6px;
         display: inline-block;
         border-style: none;
+        color: $default-color;
       }
     }
 
