@@ -4,7 +4,7 @@
   padding: 15px;
   border-bottom: 1px solid #ccdcf3;
   align-items: flex-start;
-
+  max-width: $body-width;
 
   &:last-child {
     border-bottom: 1px solid #ccdcf3;
@@ -18,7 +18,7 @@
     margin-left: 0;
     width: 100%;
     border: 1px solid $default-bg-color-5;
-    background: $card-background;
+    background: $white;
 
     .activity-title {
       color: $default-color;
