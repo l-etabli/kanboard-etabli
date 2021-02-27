@@ -64,15 +64,15 @@
 
   &:hover,
   &:focus {
-    background-color: none;
+    background: none;
   }
 
   &:nth-child(even) {
-    background-color: none;
+    background: none;
 
     &:hover,
     &:focus {
-      background-color: none;
+      background: none;
     }
   }
 }
