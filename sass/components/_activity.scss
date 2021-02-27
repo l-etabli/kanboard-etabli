@@ -1,9 +1,10 @@
 .activity-event {
   display: flex;
-  align-items: center;
   margin-bottom: 0;
   padding: 15px;
   border-bottom: 1px solid #ccdcf3;
+  align-items: flex-start;
+
 
   &:last-child {
     border-bottom: 1px solid #ccdcf3;
@@ -16,12 +17,16 @@
   .activity-content {
     margin-left: 0;
     width: 100%;
+    border: 1px solid $default-bg-color-5;
+    background: $card-background;
 
     .activity-title {
       color: $default-color;
       border-bottom: 0 none;
       display: flex;
       font-weight: 500;
+      padding: .5em 1em;
+      background: $default-bg-color-2;
 
       @media (max-width: 767px) {
         flex-direction: column;
@@ -47,6 +52,7 @@
     }
 
     .activity-description {
+      padding: 1em;
       color: $default-color;
 
       ul {
@@ -56,17 +62,17 @@
     }
   }
 
-  &:hover,
-  &:focus {
-    background-color: $default-bg-color-1;
-  }
+  // &:hover,
+  // &:focus {
+  //   background-color: $default-bg-color-1;
+  // }
 
-  &:nth-child(even) {
-    background-color: #fafcff;
+  // &:nth-child(even) {
+  //   background-color: #fafcff;
 
-    &:hover,
-    &:focus {
-      background-color: $default-bg-color-1;
-    }
-  }
+  //   &:hover,
+  //   &:focus {
+  //     background-color: $default-bg-color-1;
+  //   }
+  // }
 }
