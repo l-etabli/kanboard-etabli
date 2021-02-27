@@ -18,6 +18,7 @@
 header {
   .select-dropdown-input-container {
     background-color: transparent;
+    border: none;
 
     .select-dropdown-chevron {
       color: $primary-color;
@@ -25,7 +26,10 @@ header {
 
     input.select-dropdown-input {
       background-color: $default-bg-color !important;
-      color: $primary-color !important;
+      &,
+      &::placeholder {
+        color: $primary-color !important;
+      }
     }
   }
 }
