@@ -1,4 +1,4 @@
-$default-bg-color: #fafcff;
+$default-bg-color: #fff;
 $default-bg-color-1: darken($default-bg-color, 1);
 $default-bg-color-2: darken($default-bg-color, 2);
 $default-bg-color-3: darken($default-bg-color, 3);
@@ -11,18 +11,22 @@ $default-bg-color-60: darken($default-bg-color, 60);
 $default-bg-color-85: darken($default-bg-color, 85);
 $default-bg-color-90: darken($default-bg-color, 90);
 
-$default-border-color: #ccdcf3;
 
-$default-color: #304b6f;
-$default-text-color: #628bc5;
+$default-color: #121619;
+$default-text-color: #121619;
 
-$danger-color: #f24262;
-$success-color: #65ae5c;
-$warning-color: #ea8356;
+$danger-color: #da1e28;
+$success-color: #198038;
+$warning-color: #ff832b;
 $info-color: #63bed7;
 
-$primary-color: #539bff;
-$secondary-color: #628bc5;
+$primary-color: #262626;
+$secondary-color: #0f62fe;
 
-$task-board-meta-border-color: #e1e8f5;
-$task-board-meta-bg-color: #fbfbfb;
+$default-border-color: $secondary-color;
+
+$task-board-meta-border-color: #f4f4f4;
+$task-board-meta-bg-color: #f4f4f4;
+
+$link-color: #36c;
+$link-mention-color: #ff006c;
