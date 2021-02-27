@@ -9,7 +9,8 @@
     border-radius: 0;
     background-color: transparent;
     border: none;
-    border-bottom: 4px solid $default-border-color;
+    border-bottom: 4px solid $default-bg-color-10;
+    margin-bottom: 1rem;
 
     .table-list-header-count {
       color: $default-text-color;
